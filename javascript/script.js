@@ -12,7 +12,7 @@ let dateToday = time.toDateString();
 document.getElementById("current-date").innerText=`${dateToday}`;
 
 document.getElementById("blog-link").addEventListener("click", function(){
-  window.location.href="/blog.discover.html"
+  window.location.href="./blog.discover.html"
 });
 // document.getElementById("back-to-desk").addEventListener("click", function(){
 //   window.location.href="/index.html"
