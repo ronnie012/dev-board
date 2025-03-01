@@ -15,7 +15,50 @@
   <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.9/daisyui.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-  <h1>Ronnie's Dev Board</h1>
+<body class="min-h-screen bg-blue-100" id="body">
+  <header class="py-4">
+    <nav class="bg-white py-2 rounded-xl flex justify-between items-center px-4 mx-2">
+      <div class="flex gap-3">
+        <div>
+          <img src="./images/logo.png" class="w-7" alt="logo_image">
+        </div>
+        <h3>Dev<span class="font-bold">Board</span></h3>
+      </div>
+      <div class="flex gap-8">
+        <div class="flex gap-3 items-center py-0 px-2 bg-blue-100 rounded-3xl">
+          <img src="./images/checkbox.png" class="w-4 h-4" alt="checkbox_icon">
+          <h3><span class="font-bold">23</span></h3>
+        </div>
+        <div class="flex items-center cursor-pointer p-2 gap-2 bg-blue-100 rounded-full">
+          <img id="rainbow_theme_btn" src="./images/theme-btn.png" class="w-7 h-7" alt="theme_controller_icon">
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <!-- Task_discover_date -->
+      <div>
+        <!-- Task -->
+        <div class="flex items-center gap-4">
+          <div class="bg-white rounded-full">
+            <img class="w-5 h-6" src="./images/checkbox.png" alt="">
+          </div>
+          <div>
+            <p>Task Assigned</p>
+            <h3><span class="font-bold">6</span></h3>
+          </div>
+        </div>
+        <div></div>
+        <div></div>
+      </div>
+      <!-- cards_1-6 -->
+      <div>
+
+      </div>
+    </section>
+  </main>
+  <script src="./javascript/script.js"></script>
 </body>
 </html>
