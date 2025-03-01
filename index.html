@@ -15,7 +15,7 @@
   <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.9/daisyui.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body class="min-h-screen bg-blue-100" id="body">
+<body class="h-full bg-blue-100" id="body">
   <header class="py-4">
     <nav class="bg-white py-2 rounded-xl flex justify-between items-center px-4 mx-20">
       <div class="flex gap-3">
@@ -36,8 +36,8 @@
     </nav>
   </header>
 
-  <main class="mx-auto grid grid-cols-12 gap-">
-    <section class="bg-white rounded-xl col-span-9 ml-20 mr-4">
+  <main class="mx-auto grid grid-cols-12 gap- ">
+    <section class="bg-white rounded-xl col-span-9 ml-20 mr-4 mb-4">
       <!-- Task_Discover_Date -->
       <div class="grid grid-cols-4 border-gray-400 border-b-1 gap-5 border-dashed  pt-4 pb-3">
         <!-- Task -->
@@ -64,7 +64,7 @@
           <div>
             <img src="./images/calender.png" alt="">
           </div>
-          <div class="text-xs">
+          <div id="current-date" class="text-xs">
             <h5>Tue Feb 25 2025</h5>
           </div>
         </div>
@@ -170,7 +170,7 @@
       </div>
     </section>
     <!-- Clear History -->
-    <section class="bg-white col-span-3 mr-20 rounded-xl">
+    <section class="bg-white col-span-3 mr-20 rounded-xl mb-4">
       <div class="flex flex-col items-center border-b-1 border-dashed border-gray-400 pt-4 pb-2">
         <div class="flex gap-2 items-center pb-2">
           <img class="w-4 h-4" src="./images/activity.png" alt="">
