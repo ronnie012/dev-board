@@ -17,7 +17,7 @@
 </head>
 <body class="min-h-screen bg-blue-100" id="body">
   <header class="py-4">
-    <nav class="bg-white py-2 rounded-xl flex justify-between items-center px-4 mx-2">
+    <nav class="bg-white py-2 rounded-xl flex justify-between items-center px-4 mx-20">
       <div class="flex gap-3">
         <div>
           <img src="./images/logo.png" class="w-7" alt="logo_image">
@@ -36,26 +36,56 @@
     </nav>
   </header>
 
-  <main>
-    <section>
-      <!-- Task_discover_date -->
-      <div>
+  <main class="mx-auto grid grid-cols-12 gap-">
+    <section class="bg-white rounded-xl col-span-9 ml-20 mr-4">
+      <!-- Task_Discover_Date -->
+      <div class="grid grid-cols-4 border-gray-400 border-b-1 gap-5 border-dashed  pt-4 pb-3">
         <!-- Task -->
-        <div class="flex items-center gap-4">
-          <div class="bg-white rounded-full">
-            <img class="w-5 h-6" src="./images/checkbox.png" alt="">
+        <div class="flex items-center bg-blue-100 p-4 gap-4 rounded-xl ml-3">
+          <div class="p-2 bg-white rounded-full">
+            <img class="w-5 h-5" src="./images/checkbox.png" alt="">
           </div>
           <div>
-            <p>Task Assigned</p>
-            <h3><span class="font-bold">6</span></h3>
+            <p class="text-xs">Task Assigned</p>
+            <h5><span class="font-bold">6</span></h5>
           </div>
         </div>
-        <div></div>
-        <div></div>
+        <!-- Discover -->
+        <div class="col-span-2 flex items-center justify-center gap-2 p-3 bg-gradient-to-tr from-blue-600 to-blue-200 rounded-xl">
+          <div>
+            <img src="./images/board.png" alt="">
+          </div>
+          <div>
+            <h3>Discover Something New Today!</h3>
+          </div>
+        </div>
+        <!-- Date -->
+        <div class="flex gap-4 items-center bg-blue-100 rounded-xl p-4 mr-3">
+          <div>
+            <img src="./images/calender.png" alt="">
+          </div>
+          <div class="text-xs">
+            <h5>Tue Feb 25 2025</h5>
+          </div>
+        </div>
       </div>
       <!-- cards_1-6 -->
       <div>
 
+      </div>
+    </section>
+    <!-- Clear History -->
+    <section class="bg-white col-span-3 mr-20 rounded-xl">
+      <div class="flex flex-col items-center border-b-1 border-dashed border-gray-400 pt-4 pb-2">
+        <div class="flex gap-2 items-center pb-2">
+          <img class="w-4 h-4" src="./images/activity.png" alt="">
+          <h3>Activity Log</h3>
+        </div>
+        <div class="flex items-center">
+          <button class="cursor-pointer bg-blue-600 text-white pt-1 pb-1 pl-2 pr-2 rounded-sm">
+            Clear History
+          </button>
+        </div>
       </div>
     </section>
   </main>
