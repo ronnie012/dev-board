@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dev Board</title>
+  <!-- TailwindCSS_CDN -->
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-clifford: #da373d;
+      }
+    </style>
+  <!-- DaisyUI_CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.9/daisyui.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="h-full bg-blue-100" id="body">
+  <header class="py-4">
+    <nav class="bg-white py-2 rounded-xl flex justify-between items-center px-4 mx-20">
+      <div class="flex gap-3">
+        <div>
+          <img src="./images/logo.png" class="w-7" alt="logo_image">
+        </div>
+        <h3>Dev<span class="font-bold">Board</span></h3>
+      </div>
+      <div class="flex gap-8">
+        <button onclick="window.location.href='index.html'" id="back-to-desk" class="btn btn-primary font-bold">Back to Desk</button>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <div class="flex justify-center ">
+        <h1 class="text-3xl font-bold">Blogs</h1>
+      </div>
+      <!-- <div class=" border-gray-400 border-b-1 gap-5 border-dashed  pt-4 pb-3"> -->
+        <!-- Q_&_A-1 -->
+        <div class="flex gap-4 items-center bg-blue-100 rounded-xl p-4 mx-17">
+          <div class="text-lg bg-white rounded-lg p-4">
+            <h5 class="font-bold border-gray-400 border-b-1 py-3 border-dashed">Question-1: What are the different ways to select an element in DOM?</h5>
+            <p class="py-3">Answer-1: Lorem ipsum dolor sit amet consectetur adipisicing elit. A ipsum illo fugit, error inventore labore deleniti perferendis beatae nisi, soluta non sapiente.</p>
+          </div>
+        </div>
+      <!-- </div> -->
+        <!-- Q_&_A-2 -->
+        <div class="flex gap-4 items-center bg-blue-100 rounded-xl p-4 mx-17">
+          <div class="text-lg bg-white rounded-lg p-4">
+            <h5 class="font-bold border-gray-400 border-b-1 py-3 border-dashed">Question-2: What are the different ways to select an element in DOM?</h5>
+            <p class="py-3">Answer-2: Lorem ipsum dolor sit amet consectetur adipisicing elit. A ipsum illo fugit, error inventore labore deleniti perferendis beatae nisi, soluta non sapiente.</p>
+          </div>
+        </div>
+        <!-- Q_&_A-3 -->
+        <div class="flex gap-4 items-center bg-blue-100 rounded-xl p-4 mx-17">
+          <div class="text-lg bg-white rounded-lg p-4">
+            <h5 class="font-bold border-gray-400 border-b-1 py-3 border-dashed">Question-3: What are the different ways to select an element in DOM?</h5>
+            <p class="py-3">Answer-3: Lorem ipsum dolor sit amet consectetur adipisicing elit. A ipsum illo fugit, error inventore labore deleniti perferendis beatae nisi, soluta non sapiente.</p>
+          </div>
+        </div>
+        <!-- Q_&_A-4 -->
+        <div class="flex gap-4 items-center bg-blue-100 rounded-xl p-4 mx-17">
+          <div class="text-lg bg-white rounded-lg p-4">
+            <h5 class="font-bold border-gray-400 border-b-1 py-3 border-dashed">Question-4: What are the different ways to select an element in DOM?</h5>
+            <p class="py-3">Answer-4: Lorem ipsum dolor sit amet consectetur adipisicing elit. A ipsum illo fugit, error inventore labore deleniti perferendis beatae nisi, soluta non sapiente.</p>
+          </div>
+        </div>
+        <!-- Q_&_A-5 -->
+        <div class="flex gap-4 items-center bg-blue-100 rounded-xl p-4 mx-17 ">
+          <div class="text-lg bg-white rounded-lg p-4 mb-4">
+            <h5 class="font-bold border-gray-400 border-b-1 py-3 border-dashed">Question-5: What are the different ways to select an element in DOM?</h5>
+            <p class="py-3">Answer-5: Lorem ipsum dolor sit amet consectetur adipisicing elit. A ipsum illo fugit, error inventore labore deleniti perferendis beatae nisi, soluta non sapiente.</p>
+          </div>
+        </div>
+    </section>
+  </main>
+  <script src="./javascript/script.js"></script>
+</body>
+</html>
