@@ -31,7 +31,7 @@ for (let card of cards) {
       // total_task_counter_updating
       let taskCountElement = document.getElementById("taskcount-intotal");
       let taskCount = parseInt(taskCountElement.innerText);
-      taskCountElement.innerText = taskCount - 1;
+      taskCountElement.innerText = String(taskCount - 1).padStart(2, '0');
       // completed_task_counter_updating
       let completedTaskElement = document.getElementById("finished-taskcount");
       let completedTaskCount = parseInt(completedTaskElement.innerText);
@@ -57,3 +57,6 @@ for (let card of cards) {
     }
   });
 }
+
+
+
