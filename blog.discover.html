@@ -26,7 +26,7 @@
 
   <!-- header_start -->
   <header class="py-4">
-    <nav class="bg-white py-4 rounded-xl flex justify-between items-center px-4 mx-20">
+    <nav class="bg-white py-4 rounded-xl flex justify-between items-center px-3 lg:mx-20    ml-4 mr-4">
       <div class="flex gap-3">
         <div>
           <img src="./images/logo.png" class="w-7" alt="logo_image">
@@ -34,7 +34,7 @@
         <h3 class="text-lg">Dev<span class="font-bold">Board</span></h3>
       </div>
       <div class="flex gap-8">
-        <button onclick="window.location.href='index.html'" id="back-to-desk" class="btn btn-primary font-bold">Back to Desk</button>
+        <button onclick="window.location.href='index.html'" id="back-to-desk" class="btn btn-primary lg:text-lg text-xs font-bold">Back to Desk</button>
       </div>
     </nav>
   </header>
@@ -47,10 +47,10 @@
         <h1 class="text-3xl font-bold">Blogs</h1>
       </div>
         <!-- Q_&_A-1 -->
-        <div class="flex gap-4 items-center bg-blue-100 rounded-xl p-4 mx-17">
-          <div class="text-lg bg-white rounded-lg ">
-            <h5 class="font-bold border-gray-400 border-b-1 py-5 p-8 border-dashed">Question-1: What are the different ways to select an element in the DOM?</h5>
-            <p class="text-gray-400 py-5 p-8"><span class="font-bold bg-green-300">Answer-1:</span> The different ways to select an element in the DOM are:   
+        <div class="flex gap-4 items-center bg-blue-100 rounded-xl p-4 lg:mx-17 mr-">
+          <div class="lg:text-lg text-xs bg-white rounded-lg ">
+            <h5 class="font-bold border-gray-400 border-b-1 py-5 lg:p-8 pl-3 border-dashed">Question-1: What are the different ways to select an element in the DOM?</h5>
+            <p class="text-gray-400 py-5 lg:p-8 p-2"><span class="lg:text-lg text-xs font-bold bg-green-300">Answer-1:</span> The different ways to select an element in the DOM are:   
               <span class="text-gray-500 font-bold">A.</span> document.getElementById("id");
               <span class="text-gray-500 font-bold">B.</span> document.getElementsByTagName("tag");
               <span class="text-gray-500 font-bold">C.</span> document.getElementsByClassName("class"); <br>
@@ -59,32 +59,32 @@
           </div>
         </div>
         <!-- Q_&_A-2 -->
-        <div class="flex gap-4 items-center bg-blue-100 rounded-xl p-4 mx-17">
-          <div class="text-lg bg-white rounded-lg ">
-            <h5 class="font-bold border-gray-400 border-b-1 py-5 p-8 border-dashed">Question-2: What is the difference between innerHTML, innerText, and textContent?</h5>
-            <p class="text-gray-400 py-5 p-8"><span class="font-bold bg-green-300">Answer-2:</span> innerHTML sets or gets "HTML content" inside a targeted element, innerText gets or sets "only visible text" without hidden elements inside an element, and textContent sets or gets "all text content" with hidden text too.
-              .</p>
+        <div class="flex gap-4 items-center bg-blue-100 rounded-xl p-4 lg:mx-17">
+          <div class="lg:text-lg text-xs bg-white rounded-lg ">
+            <h5 class="font-bold border-gray-400 border-b-1 py-5 lg:p-8 p-5 border-dashed">Question-2: What is the difference between innerHTML, innerText, and textContent?</h5>
+            <p class="text-gray-400 py-5 lg:p-8 p-5"><span class="font-bold bg-green-300">Answer-2:</span> innerHTML sets or gets "HTML content" inside a targeted element, innerText gets or sets "only visible text" without hidden elements inside an element, and textContent sets or gets "all text content" with hidden text too.
+            </p>
           </div>
         </div>
         <!-- Q_&_A-3 -->
-        <div class="flex gap-4 items-center bg-blue-100 rounded-xl p-4 mx-17">
-          <div class="text-lg bg-white rounded-lg ">
-            <h5 class="font-bold border-gray-400 border-b-1 py-5 p-8 border-dashed">Question-3: What is event delegation in the DOM?</h5>
-            <p class="text-gray-400 py-5 p-8"><span class="font-bold bg-green-300">Answer-3:</span> Event delegation is a strategy for a parent element to listen to events occurred on its child elements regardless they are added dynamically or not.</p>
+        <div class="flex gap-4 items-center bg-blue-100 rounded-xl p-4 lg:mx-17">
+          <div class="lg:text-lg text-xs bg-white rounded-lg ">
+            <h5 class="font-bold border-gray-400 border-b-1 py-5 lg:p-8 p-5 border-dashed">Question-3: What is event delegation in the DOM?</h5>
+            <p class="text-gray-400 py-5 lg:p-8 p-5"><span class="font-bold bg-green-300">Answer-3:</span> Event delegation is a strategy for a parent element to listen to events occurred on its child elements regardless they are added dynamically or not.</p>
           </div>
         </div>
         <!-- Q_&_A-4 -->
-        <div class="flex gap-4 items-center bg-blue-100 rounded-xl p-4 mx-17">
-          <div class="text-lg bg-white rounded-lg ">
-            <h5 class="font-bold border-gray-400 border-b-1 py-5 p-8 border-dashed">Question-4: What is event bubbling in the DOM?</h5>
-            <p class="text-gray-400 py-5 p-8"><span class="font-bold bg-green-300">Answer-4:</span> Event bubbling in the DOM refers to the process of starting an event at the targeted element and propagating upward to its parent elements like the way bubbles inside water travel all the way upward to the surface.</p>
+        <div class="flex gap-4 items-center bg-blue-100 rounded-xl p-4 lg:mx-17">
+          <div class="lg:text-lg text-xs bg-white rounded-lg ">
+            <h5 class="font-bold border-gray-400 border-b-1 py-5 lg:p-8 p-5 border-dashed">Question-4: What is event bubbling in the DOM?</h5>
+            <p class="text-gray-400 py-5 lg:p-8 p-5"><span class="font-bold bg-green-300">Answer-4:</span> Event bubbling in the DOM refers to the process of starting an event at the targeted element and propagating upward to its parent elements like the way bubbles inside water travel all the way upward to the surface.</p>
           </div>
         </div>
         <!-- Q_&_A-5 -->
-        <div class="flex gap-4 items-center bg-blue-100 rounded-xl p-4 mx-17 ">
-          <div class="text-lg bg-white rounded-lg mb-4">
-            <h5 class="font-bold border-gray-400 border-b-1 py-5 p-8 border-dashed">Question-5: How do you create, add, and remove elements using JavaScript?</h5>
-            <p class="text-gray-400 py-5 p-8"><span class="font-bold bg-green-300">Answer-5:</span> I can create, add, and remove elements using JavaScript in various ways like: 
+        <div class="flex gap-4 items-center bg-blue-100 rounded-xl p-4 lg:mx-17 ">
+          <div class="lg:text-lg text-xs bg-white rounded-lg mb-4">
+            <h5 class="font-bold border-gray-400 border-b-1 py-5 lg:p-8 p-5 border-dashed">Question-5: How do you create, add, and remove elements using JavaScript?</h5>
+            <p class="text-gray-400 py-5 lg:p-8 p-5"><span class="font-bold bg-green-300">Answer-5:</span> I can create, add, and remove elements using JavaScript in various ways like: 
               <span class="text-gray-500 font-bold">i.</span> To create an element, I can use document.createElement();
               <span class="text-gray-500 font-bold">ii.</span> To add an element, I can use:
               <span class="text-gray-500 font-bold">a.</span> appendChild() (to add an element at the end);

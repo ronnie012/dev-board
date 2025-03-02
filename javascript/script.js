@@ -38,7 +38,7 @@ for (let card of cards) {
       completedTaskElement.innerText = completedTaskCount + 1;
       // history_message_template_creating
       let historyMessage = document.createElement("p");
-      historyMessage.className = "bg-blue-100 p-3 mx-2 rounded-xl text-xs";
+      historyMessage.className = "bg-blue-100 lg:p-3 lg:mx-2 p-2 mx-2 rounded-xl text-xs";
       // inserting_completed_task_name_in_history_message
       let taskName = btnCard.closest(".card").querySelector(".task-name").innerText;
       historyMessage.innerText = `You have completed the task "${taskName}" at ${new Date().toLocaleTimeString()}`;
