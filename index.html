@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!-- head_start -->
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dev Board</title>
   <!-- TailwindCSS_CDN -->
   <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-    <style type="text/tailwindcss">
+    <!-- <style type="text/tailwindcss">
       @theme {
         --color-clifford: #da373d;
       }
-    </style>
+    </style> -->
   <!-- DaisyUI_CDN -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.9/daisyui.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -21,8 +23,23 @@
   <style>
     * {font-family: "Poppins", sans-serif;}
   </style>
+  <!-- Desired_Date_Format -->
+  <style>
+    /* Ensure proper text alignment */
+    #current-date {
+        display: inline-block;
+        text-align: left;
+        font-size: 0.8em;
+        line-height: 1.5;
+    }
+</style>
 </head>
+<!-- head_end -->
+
+<!-- body_start -->
 <body class="h-full bg-blue-100" id="body">
+
+  <!-- header_start -->
   <header class="py-4">
     <nav class="bg-white py-3 rounded-xl flex justify-between items-center px-4 mx-20">
       <div class="flex gap-3">
@@ -42,7 +59,9 @@
       </div>
     </nav>
   </header>
+  <!-- header_end -->
 
+  <!-- main_start -->
   <main class="mx-auto grid grid-cols-12 gap- ">
     <section class="bg-white rounded-xl col-span-9 ml-20 mr-4 mb-4">
       <!-- Task_Discover_Date -->
@@ -54,7 +73,7 @@
           </div>
           <div>
             <p class="text-xs">Task Assigned</p>
-            <h5><span id="taskcount-intotal" class="font-bold">06</span></h5>
+            <h5><span id="taskcount-intotal" class="font-bold">6</span></h5>
           </div>
         </div>
         <!-- Discover -->
@@ -63,15 +82,15 @@
             <img src="./images/board.png" alt="">
           </div>
           <div>
-            <h3 class="text-white text-2xl font-semibold">Discover Something New Today!</h3>
+            <h3 class="text-white text-xl font-semibold">Discover Something New Today!</h3>
           </div>
         </div>
         <!-- Date -->
-        <div class="flex gap-4 justify-center items-center text-end bg-blue-100 rounded-xl p-4 mr-3">
-          <div>
+        <div class="flex gap-6 justify-start items-center bg-blue-100 rounded-xl p-4 pr- mr-3">
+          <div class="p-2 bg-white rounded-full">
             <img src="./images/calender.png" alt="">
           </div>
-          <div id="current-date" class="text-xs flex text-end">
+          <div id="current-date" class="text-xs flex flex-start ">
             <h5>Tue Feb 25 2025</h5>
           </div>
         </div>
@@ -192,6 +211,12 @@
       <div class="text-xs px-1 mt-14 space-y-4" id="history"></div>
     </section>
   </main>
+  <!-- main_end -->
+
   <script src="./javascript/script.js"></script>
 </body>
+<!-- body_end -->
+
 </html>
+
+
