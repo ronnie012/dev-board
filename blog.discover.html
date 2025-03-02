@@ -6,11 +6,11 @@
   <title>Dev Board</title>
   <!-- TailwindCSS_CDN -->
   <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-    <style type="text/tailwindcss">
-      @theme {
+    <!-- <style type="text/tailwindcss">
+      @ theme {
         --color-clifford: #da373d;
       }
-    </style>
+    </style> -->
   <!-- DaisyUI_CDN -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.9/daisyui.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -46,36 +46,50 @@
         <div class="flex gap-4 items-center bg-blue-100 rounded-xl p-4 mx-17">
           <div class="text-lg bg-white rounded-lg ">
             <h5 class="font-bold border-gray-400 border-b-1 py-5 p-8 border-dashed">Question-1: What are the different ways to select an element in the DOM?</h5>
-            <p class="text-gray-400 py-5 p-8">Answer-1: Lorem ipsum dolor sit amet consectetur adipisicing elit. A ipsum illo fugit, error inventore labore deleniti perferendis beatae nisi, soluta non sapiente.</p>
+            <p class="text-gray-400 py-5 p-8"><span class="font-bold bg-green-300">Answer-1:</span> The different ways to select an element in the DOM are:   
+              <span class="text-gray-500 font-bold">A.</span> document.getElementById("id");
+              <span class="text-gray-500 font-bold">B.</span> document.getElementsByTagName("tag");
+              <span class="text-gray-500 font-bold">C.</span> document.getElementsByClassName("class"); <br>
+              <span class="text-gray-500 font-bold">D.</span> document.querySelector("selector"); 
+              <span class="text-gray-500 font-bold">E.</span> document.querySelectorAll("selector").</p>
           </div>
         </div>
       <!-- </div> -->
         <!-- Q_&_A-2 -->
         <div class="flex gap-4 items-center bg-blue-100 rounded-xl p-4 mx-17">
           <div class="text-lg bg-white rounded-lg ">
-            <h5 class="font-bold border-gray-400 border-b-1 py-5 p-8 border-dashed">Question-2: What is the difference between innerHTML, innerText, and textContent ?</h5>
-            <p class="text-gray-400 py-5 p-8">Answer-2: Lorem ipsum dolor sit amet consectetur adipisicing elit. A ipsum illo fugit, error inventore labore deleniti perferendis beatae nisi, soluta non sapiente.</p>
+            <h5 class="font-bold border-gray-400 border-b-1 py-5 p-8 border-dashed">Question-2: What is the difference between innerHTML, innerText, and textContent?</h5>
+            <p class="text-gray-400 py-5 p-8"><span class="font-bold bg-green-300">Answer-2:</span> innerHTML sets or gets "HTML content" inside a targeted element, innerText gets or sets "only visible text" without hidden elements inside an element, and textContent sets or gets "all text content" with hidden text too.
+              .</p>
           </div>
         </div>
         <!-- Q_&_A-3 -->
         <div class="flex gap-4 items-center bg-blue-100 rounded-xl p-4 mx-17">
           <div class="text-lg bg-white rounded-lg ">
             <h5 class="font-bold border-gray-400 border-b-1 py-5 p-8 border-dashed">Question-3: What is event delegation in the DOM?</h5>
-            <p class="text-gray-400 py-5 p-8">Answer-3: Lorem ipsum dolor sit amet consectetur adipisicing elit. A ipsum illo fugit, error inventore labore deleniti perferendis beatae nisi, soluta non sapiente.</p>
+            <p class="text-gray-400 py-5 p-8"><span class="font-bold bg-green-300">Answer-3:</span> Event delegation is a strategy for a parent element to listen to events occurred on its child elements regardless they are added dynamically or not.</p>
           </div>
         </div>
         <!-- Q_&_A-4 -->
         <div class="flex gap-4 items-center bg-blue-100 rounded-xl p-4 mx-17">
           <div class="text-lg bg-white rounded-lg ">
             <h5 class="font-bold border-gray-400 border-b-1 py-5 p-8 border-dashed">Question-4: What is event bubbling in the DOM?</h5>
-            <p class="text-gray-400 py-5 p-8">Answer-4: Lorem ipsum dolor sit amet consectetur adipisicing elit. A ipsum illo fugit, error inventore labore deleniti perferendis beatae nisi, soluta non sapiente.</p>
+            <p class="text-gray-400 py-5 p-8"><span class="font-bold bg-green-300">Answer-4:</span> Event bubbling in the DOM refers to the process of starting an event at the targeted element and propagating upward to its parent elements like the way bubbles inside water travel all the way upward to the surface.</p>
           </div>
         </div>
         <!-- Q_&_A-5 -->
         <div class="flex gap-4 items-center bg-blue-100 rounded-xl p-4 mx-17 ">
           <div class="text-lg bg-white rounded-lg mb-4">
             <h5 class="font-bold border-gray-400 border-b-1 py-5 p-8 border-dashed">Question-5: How do you create, add, and remove elements using JavaScript?</h5>
-            <p class="text-gray-400 py-5 p-8">Answer-5: Lorem ipsum dolor sit amet consectetur adipisicing elit. A ipsum illo fugit, error inventore labore deleniti perferendis beatae nisi, soluta non sapiente.</p>
+            <p class="text-gray-400 py-5 p-8"><span class="font-bold bg-green-300">Answer-5:</span> I can create, add, and remove elements using JavaScript in various ways like: 
+              <span class="text-gray-500 font-bold">i.</span> To create an element, I can use document.createElement();
+              <span class="text-gray-500 font-bold">ii.</span> To add an element, I can use:
+              <span class="text-gray-500 font-bold">a.</span> appendChild() (to add an element at the end);
+              <span class="text-gray-500 font-bold">b.</span> prepend() (to add an element at the beginning);
+              <span class="text-gray-500 font-bold">c.</span> insertBefore() (to insert an element before another element);
+              <span class="text-gray-500 font-bold">iii.</span> To remove an element, I can use:
+              <span class="text-gray-500 font-bold">A.</span> remove() (to remove the element directly);
+              <span class="text-gray-500 font-bold">B.</span> removeChild() (to remove a child from a parent).</p>
           </div>
         </div>
     </section>
